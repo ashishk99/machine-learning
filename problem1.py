@@ -23,8 +23,13 @@ Prs, rounded up to six decimal places.
 
 
 result = 0.00000
+
 fn = float(input())
+
 sn = float(input())
+
 tn = float(input())
-result = ((1-fn)*sn) + (fn*(2/tn))
+
+result = (fn*(1 - sn)*tn) + ((1 - fn)*sn*tn)
+
 print('%.6f'%result)
