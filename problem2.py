@@ -11,9 +11,9 @@ N>=2
 
 Input format
 
-First line: 
+First line: Pct
 
-Second line: 
+Second line: Pot
 
 Third line: N
 
