@@ -21,14 +21,10 @@ Output format
 
 Probability he will reach in time, rounded to six decimal digits
 """
+
 result = 0.00000
-
 fn = float(input())
-
 sn = float(input())
-
 tn = float(input())
-
 result = ((1-fn)*sn) + (fn*(2/tn))
-
 print('%.6f'%result)
